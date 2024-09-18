@@ -106,7 +106,6 @@ const NotificationProvider = ({ children }) => {
 
       const poolKeys = await jsonInfo2PoolKeys(poolAddress);
       // const bbb = await poolKeys2JsonInfo(publicKey);
-      // console.log("bbb", poolKeys, bbb)
 
       const { 
         amountIn, 

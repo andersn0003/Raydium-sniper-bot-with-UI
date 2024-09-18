@@ -1,6 +1,5 @@
 "use client";
 import { WalletAdapterNetwork, WalletError } from "@solana/wallet-adapter-base";
-import { UnsafeBurnerWalletAdapter } from "@solana/wallet-adapter-wallets";
 
 import {
   ConnectionProvider,
@@ -11,7 +10,7 @@ import {
   PhantomWalletAdapter,
   SolflareWalletAdapter,
   TorusWalletAdapter,
-  LedgerWalletAdapter,
+  LedgerWalletAdapter, 
 } from "@solana/wallet-adapter-wallets";
 import { useCallback, useMemo } from "react";
 import { AutoConnectProvider, useAutoConnect } from "./autoConnectionContext";
